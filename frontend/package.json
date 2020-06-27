@@ -38,6 +38,7 @@
     "url": "https://github.com/PanJiaChen/vue-element-admin/issues"
   },
   "dependencies": {
+    "@vue/cli-shared-utils": "^4.4.4",
     "axios": "^0.19.2",
     "csshake": "^1.5.3",
     "element-ui": "^2.12.0",
