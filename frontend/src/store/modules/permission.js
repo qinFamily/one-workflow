@@ -150,7 +150,7 @@ function generateRouter(item, isParent) {
     name: item.name,
     meta: item.meta,
     noCache: item.no_cache,
-    activeMenu: item.active_menu,
+    // activeMenu: item.active_menu,
     hidden: item.hidden,
     // component: isParent ? Layout : () => import(item.component) // 这个不可以
     // component: isParent ? Layout : componentsMap[item.component]
@@ -192,5 +192,5 @@ export const componentsMap = {
 
   // notice
   mail: () => import('@/views/notice/mail'), // mail bot
-  telegram: () => import('@/views/notice/telegram'), // telegram bot
+  telegram: () => import('@/views/notice/telegram') // telegram bot
 }
